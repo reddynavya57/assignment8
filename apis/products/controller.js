@@ -78,7 +78,6 @@ exports.deleteProducts = async(req,res) => {
 
 
 //top 5 prices
-
 exports.topFivePrices = async(req,res) => {
     try{
         
@@ -104,7 +103,6 @@ exports.topFivePrices = async(req,res) => {
 }
 
 //Nth highest price
-
 exports.nthHighestPrice = async(req,res) => {
     try{
         let n = req.params.nthprice;
